@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,  KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LALT,   KC_LCTL,  KC_LGUI,     LT(1, KC_SPC),   LT(2, KC_MINS), LCTL_T(KC_EQL)
+                                          KC_LALT,   KC_LCTL,  KC_LGUI,     LT(1, KC_SPC),   LT(2, KC_MINS), LT(3, KC_EQL)
 
                                       //`--------------------------'  `--------------------------'
 
@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                                     |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, KC_MUTE, KC__VOLDOWN, KC__VOLUP,                               KC_CALC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|                            |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LALT,   KC_LCTL,  KC_LGUI,                         LT(1, KC_SPC),   LT(2, KC_MINS), LCTL_T(KC_EQL)
+                                      KC_LALT,   KC_LCTL,  KC_LGUI,                         LT(1, KC_SPC),   LT(2, KC_MINS),  LT(3, KC_EQL)
                                       //`--------------------------'                            `--------------------------'
   ),
 
@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, KC_UP, KC_DOWN, KC_LEFT, KC_RIGHT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LALT,   KC_LCTL,  KC_LGUI,     LT(1, KC_SPC),   LT(2, KC_MINS), LCTL_T(KC_EQL)
+                                          KC_LALT,   KC_LCTL,  KC_LGUI,     LT(1, KC_SPC),   LT(2, KC_MINS), LT(3, KC_EQL)
                                       //`--------------------------'  `--------------------------'
   ),
 
@@ -62,11 +62,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
         RESET, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RCTL,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, KC_UP, KC_DOWN, KC_LEFT, KC_RIGHT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LALT, KC_LCTL,  KC_LGUI,     LT(1, KC_SPC),   LT(2, KC_MINS), LCTL_T(KC_EQL)
+                                          KC_LALT, KC_LCTL,  KC_LGUI,     LT(1, KC_SPC),   LT(2, KC_MINS), LT(3, KC_EQL)
                                       //`--------------------------'  `--------------------------'
   )
 };
