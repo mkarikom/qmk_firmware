@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                                     |--------+--------+--------+--------+--------+--------|
       KC_LCTL, XXXXXXX, XXXXXXX, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_PREV_TRACK, KC_MEDIA_NEXT_TRACK,  KC_QUOT, KC_LBRC,   KC_RBRC,KC_BSLS, KC_GRV, KC_DEL,
   //|--------+--------+--------+--------+--------+--------|                                     |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, XXXXXXX, XXXXXXX, KC_MUTE, KC__VOLDOWN, KC__VOLUP,                               KC_CALC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      KC_LSFT, XXXXXXX, XXXXXXX, KC_MUTE, KC_VOLD, KC_VOLU,                               KC_CALC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|                            |--------+--------+--------+--------+--------+--------+--------|
                                       KC_LALT,   KC_LCTL,  KC_LGUI,                         LT(1, KC_SPC),   LT(2, KC_MINS),  LT(3, KC_EQL)
                                       //`--------------------------'                            `--------------------------'
