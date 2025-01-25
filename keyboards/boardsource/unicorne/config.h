@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #pragma once
 
+#define RGBLIGHT_SLEEP
 #define RGB_MATRIX_LED_COUNT 54
 #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_ALPHAS_MODS
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
